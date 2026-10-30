@@ -1,1 +1,1121 @@
+<!DOCTYPE html>
+<html lang="ja" class="dark">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZKVVRD15VN"></script>
+  <script id="gaScript">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-ZKVVRD15VN');
+  </script>
 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>不屈の人生賛歌：Nobuの自分史クロニクル</title>
+  <meta name="description" content="紀三井寺での原風景、網走の極寒と独学の決意、トラックキャビンでの英語教室、家族の誕生と葛藤、そして89歳まで見据えた盤石な財務防衛まで。すべてを時系列で俯瞰・編集できる自分史アーカイブ。">
+
+  <!-- OGP (Open Graph Protocol) & Twitter Card -->
+  <meta property="og:title" content="不屈の人生賛歌：Nobuの自分史クロニクル">
+  <meta property="og:description" content="「自分自身に忠実に生きてゆきたい」— 1956年から2045年まで、映像編集のタイムラインのようにすべてを時系列で紡ぐ自分史アーカイブ。">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="ogp.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="不屈の人生賛歌：Nobuの自分史クロニクル">
+  <meta name="twitter:description" content="「自分自身に忠実に生きてゆきたい」— 昭和・平成・令和の軌跡を綴る自分史アーカイブ。">
+  <meta name="twitter:image" content="ogp.png">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@600;700;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Noto Sans JP"', 'sans-serif'],
+            serif: ['"Noto Serif JP"', 'serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          }
+        }
+      }
+    }
+  </script>
+  <style id="baseCustomStyle">
+    html {
+      scroll-behavior: smooth;
+      background-color: #0B0F17;
+      color: #F1F5F9;
+    }
+    body {
+      background-color: #0B0F17;
+      color: #F1F5F9;
+      overflow-x: hidden;
+      min-height: 100vh;
+    }
+    .card-glow { transition: border-color 0.2s, box-shadow 0.2s, background-color 0.2s; }
+    .card-glow:hover { border-color: rgba(245, 158, 11, 0.45); box-shadow: 0 6px 20px -6px rgba(245, 158, 11, 0.15); }
+    ::-webkit-scrollbar { width: 8px; height: 8px; }
+    ::-webkit-scrollbar-track { background: #0B0F17; }
+    ::-webkit-scrollbar-thumb { background: #1E293B; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #334155; }
+  </style>
+</head>
+<body class="flex flex-col selection:bg-amber-500 selection:text-slate-950">
+
+  <!-- Sticky Header (GitHub Pages用に画面上部に美しく追従) -->
+  <header class="sticky top-0 z-30 bg-[#0B0F17]/95 backdrop-blur-md border-b border-slate-800/80 px-4 py-3">
+    <div class="max-w-5xl mx-auto flex flex-wrap items-center justify-between gap-2">
+      <div class="flex items-center gap-2.5">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-amber-500 to-amber-700 flex items-center justify-center shadow text-slate-950 font-black text-base">🎬</div>
+        <div>
+          <div class="flex items-center gap-2">
+            <h1 class="font-serif font-bold text-base sm:text-xl text-white leading-none">不屈の人生賛歌</h1>
+            <span class="text-[10px] font-mono uppercase px-2 py-0.5 rounded-full bg-amber-500/15 text-amber-400 border border-amber-500/30 hidden sm:inline">Nobu's Chronicle</span>
+          </div>
+          <p class="text-[11px] text-slate-400 mt-0.5">タイムラインで紡ぐ、昭和・平成・令和の軌跡</p>
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="flex items-center gap-1.5 flex-wrap">
+        <span id="customCountBadge" class="text-[10px] font-mono text-amber-300 bg-amber-950/60 border border-amber-700/50 px-2 py-1 rounded-md">追加・編集: 0件</span>
+        <button type="button" onclick="toggleSearchPanel()" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-medium border border-slate-700 transition">
+          🔍 検索
+        </button>
+        <button type="button" onclick="openBackupModal()" class="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold shadow transition">
+          💾 保存・復元・HTML出力
+        </button>
+        <button type="button" onclick="openEditorModal()" class="px-3.5 py-1.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs font-bold shadow transition">
+          ＋ 追記
+        </button>
+      </div>
+    </div>
+
+    <!-- Search Bar -->
+    <div id="searchPanel" class="hidden max-w-5xl mx-auto pt-3 mt-3 border-t border-slate-800/80">
+      <div class="flex gap-2">
+        <input id="searchInput" type="text" oninput="renderApp()" placeholder="キーワードで検索（例：網走、ギター、佑也、Edius、年金...）" class="w-full px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-700 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-amber-500">
+        <button type="button" onclick="clearSearch()" class="px-3 py-1.5 rounded-lg bg-slate-800 text-xs text-slate-300 shrink-0">クリア</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Banner with ogp.png Visual Integration -->
+  <section class="relative border-b border-slate-800/80 overflow-hidden">
+    <!-- ogp.png 背景レイヤー（画像が存在しない場合も美しいグラデーションを維持） -->
+    <div class="absolute inset-0 z-0 bg-gradient-to-b from-slate-900/80 via-[#0B0F17]/90 to-[#0B0F17]">
+      <img src="ogp.png" alt="" onerror="this.style.display='none'" class="w-full h-full object-cover opacity-25 mix-blend-luminosity">
+      <div class="absolute inset-0 bg-gradient-to-t from-[#0B0F17] via-[#0B0F17]/60 to-transparent"></div>
+    </div>
+
+    <div class="relative z-10 max-w-5xl mx-auto px-4 py-6 sm:py-8">
+      <!-- バナーカード（ogp.png プレビューサムネイル＋リード文） -->
+      <div class="flex flex-col md:flex-row items-start md:items-center gap-5 mb-5">
+        <div id="ogpThumbWrapper" class="w-full md:w-56 shrink-0 rounded-xl overflow-hidden border border-amber-500/30 shadow-xl bg-slate-900/80">
+          <img src="ogp.png" alt="不屈の人生賛歌 バナー" onerror="document.getElementById('ogpThumbWrapper').style.display='none'" class="w-full h-auto object-cover">
+        </div>
+        <div>
+          <div class="inline-flex items-center gap-2 text-xs font-mono text-amber-400 mb-1.5">
+            <span>1956 — 2045 LONG-RANGE TIMELINE</span>
+            <span id="totalCountBadge" class="px-2 py-0.5 rounded bg-slate-800/90 text-slate-200 border border-slate-700">全17件</span>
+          </div>
+          <h2 class="font-serif text-lg sm:text-2xl font-bold text-white mb-2 tracking-wide">「自分自身に忠実に生きてゆきたい」</h2>
+          <p class="text-xs sm:text-sm text-slate-300 leading-relaxed max-w-3xl">
+            紀三井寺での原風景、網走の極寒と独学の決意、トラックキャビンでの英語教室、家族の誕生と葛藤、そして89歳まで見据えた盤石な財務防衛まで。映像編集のタイムラインのように、すべてを時系列で俯瞰・編集できる自分史アーカイブ。
+          </p>
+        </div>
+      </div>
+
+      <!-- 章タブ -->
+      <div id="chapterTabs" class="flex flex-wrap items-center gap-1.5"></div>
+
+      <!-- 年目次バー -->
+      <div class="mt-3 pt-3 border-t border-slate-800/70 flex flex-wrap items-center gap-1.5">
+        <span class="text-[11px] font-mono text-slate-400 mr-1">年目次:</span>
+        <div id="yearIndexBar" class="flex flex-wrap items-center gap-1.5"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Timeline -->
+  <main class="flex-1 px-4 pt-6 pb-24">
+    <div id="timelineContainer" class="max-w-5xl mx-auto space-y-4"></div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-800/80 py-6 px-4 text-center text-xs text-slate-500">
+    不屈の人生賛歌：Nobuの自分史クロニクル © 1956–2045 | Powered by GitHub Pages
+  </footer>
+
+  <!-- Add / Edit Modal -->
+  <div id="editorModal" class="hidden fixed inset-0 z-50 bg-black/85 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto">
+    <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-3xl w-full p-5 sm:p-6 shadow-2xl my-6 max-h-[92vh] overflow-y-auto">
+      <div class="flex items-center justify-between pb-3 mb-3 border-b border-slate-800">
+        <h3 id="editorModalTitle" class="font-serif font-bold text-base text-white">エピソードの追記（自動年代ソート）</h3>
+        <button type="button" onclick="closeEditorModal()" class="text-slate-400 hover:text-white text-xl leading-none px-2">×</button>
+      </div>
+
+      <input type="hidden" id="editEventId">
+
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5 mb-2.5">
+        <div>
+          <label class="block text-[11px] text-slate-300 mb-1 font-medium">年（西暦） *</label>
+          <input id="formYear" type="number" min="1900" max="2100" placeholder="1984" oninput="autoSelectChapterByYear(this.value)" class="w-full px-2.5 py-1.5 rounded-lg bg-slate-950 border border-slate-700 text-white text-xs focus:border-amber-500 focus:outline-none">
+        </div>
+        <div>
+          <label class="block text-[11px] text-slate-300 mb-1 font-medium">時期・月日（任意）</label>
+          <input id="formDateStr" type="text" placeholder="例: 12月17日 / 春頃" class="w-full px-2.5 py-1.5 rounded-lg bg-slate-950 border border-slate-700 text-white text-xs focus:border-amber-500 focus:outline-none">
+        </div>
+        <div>
+          <label class="block text-[11px] text-slate-300 mb-1 font-medium">章の分類（年から自動選択）</label>
+          <select id="formChapter" class="w-full px-2.5 py-1.5 rounded-lg bg-slate-950 border border-slate-700 text-white text-xs focus:border-amber-500 focus:outline-none">
+            <option value="ch1">第1章 誕生～神戸コック時代 1956～1976年</option>
+            <option value="ch2">第2章 放浪～北海道YHヘルパー時代 1977～1983年</option>
+            <option value="ch3">第3章 神奈川移住～トラックドライバー時代 1984年～2014年</option>
+            <option value="ch4">第4章 息子の独立～妻との二人暮らし 2014年～2023年</option>
+            <option value="ch5">第5章 妻のグループホーム入所・一人暮らし時代 2024年～</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="mb-2.5">
+        <label class="block text-[11px] text-slate-300 mb-1 font-medium">出来事のタイトル *</label>
+        <input id="formTitle" type="text" placeholder="例: 網走の極寒現場と、凍える部屋での猛烈な独学" class="w-full px-2.5 py-1.5 rounded-lg bg-slate-950 border border-slate-700 text-white text-xs focus:border-amber-500 focus:outline-none">
+      </div>
+
+      <div class="mb-2.5">
+        <label class="block text-[11px] text-slate-300 mb-1 font-medium">胸に刻んだ言葉・名言（任意）</label>
+        <input id="formQuote" type="text" placeholder="例: 学歴がないので中身で勝負だ" class="w-full px-2.5 py-1.5 rounded-lg bg-slate-950 border border-slate-700 text-white text-xs focus:border-amber-500 focus:outline-none">
+      </div>
+
+      <div class="mb-3">
+        <label class="block text-[11px] text-slate-300 mb-1 font-medium">詳細エピソード・ノートの記録 *</label>
+        <textarea id="formBody" rows="5" placeholder="当時の思い出や記録を入力してください..." class="w-full px-2.5 py-1.5 rounded-lg bg-slate-950 border border-slate-700 text-white text-xs focus:border-amber-500 focus:outline-none leading-relaxed"></textarea>
+      </div>
+
+      <!-- 4 Photos -->
+      <div class="mb-3 p-3 rounded-xl bg-slate-950 border border-slate-800">
+        <div class="flex flex-wrap items-center justify-between gap-1 mb-2">
+          <label class="text-[11px] font-bold text-amber-400">📷 写真の登録（最大4枚・小さく横並び表示）</label>
+          <span class="text-[10px] text-slate-400">note等の画像URL貼り付け推奨（またはファイル選択）</span>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2" id="photoSlotsContainer"></div>
+      </div>
+
+      <!-- 2 YouTube Videos -->
+      <div class="mb-4 p-3 rounded-xl bg-slate-950 border border-slate-800">
+        <label class="block text-[11px] font-bold text-rose-400 mb-1.5">🎬 YouTube動画のURL（最大2つ）</label>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+          <div>
+            <label class="block text-[10px] text-slate-400 mb-0.5">動画① URL</label>
+            <input id="formVideoUrl0" type="text" placeholder="https://www.youtube.com/watch?v=..." class="w-full px-2.5 py-1 rounded-lg bg-slate-900 border border-slate-700 text-white text-xs focus:border-amber-500 focus:outline-none">
+          </div>
+          <div>
+            <label class="block text-[10px] text-slate-400 mb-0.5">動画② URL</label>
+            <input id="formVideoUrl1" type="text" placeholder="https://www.youtube.com/watch?v=..." class="w-full px-2.5 py-1 rounded-lg bg-slate-900 border border-slate-700 text-white text-xs focus:border-amber-500 focus:outline-none">
+          </div>
+        </div>
+      </div>
+
+      <div id="saveErrorBox" class="hidden mb-3 p-2.5 rounded-lg bg-rose-950/80 border border-rose-500/50 text-rose-200 text-xs"></div>
+
+      <div class="flex items-center justify-end gap-2 pt-2.5 border-t border-slate-800">
+        <button type="button" onclick="closeEditorModal()" class="px-3.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs text-slate-300">キャンセル</button>
+        <button type="button" onclick="saveEventFromModal()" class="px-4 py-1.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs shadow">保存して自動ソート</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Delete Modal -->
+  <div id="deleteConfirmModal" class="hidden fixed inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-slate-900 border border-rose-500/40 rounded-2xl max-w-md w-full p-4 shadow-2xl">
+      <div class="flex items-center gap-2 text-rose-400 font-bold text-sm mb-1.5">🗑️ 記事の削除確認</div>
+      <p id="deleteTargetTitle" class="text-xs text-white font-medium mb-1.5"></p>
+      <p class="text-[11px] text-slate-400 mb-4">この記事を年表から削除してもよろしいですか？</p>
+      <div class="flex justify-end gap-2">
+        <button type="button" onclick="closeDeleteModal()" class="px-3 py-1.5 rounded-lg bg-slate-800 text-xs text-slate-300">キャンセル</button>
+        <button type="button" onclick="executeDeleteEvent()" class="px-3 py-1.5 rounded-lg bg-rose-600 text-xs text-white font-bold">削除する</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lightbox Modal -->
+  <div id="photoLightboxModal" class="hidden fixed inset-0 z-[60] bg-black/90 backdrop-blur-md flex items-center justify-center p-4" onclick="closePhotoLightbox()">
+    <div class="relative max-w-4xl max-h-[90vh] flex flex-col items-center">
+      <img id="lightboxImg" src="" alt="拡大写真" class="max-w-full max-h-[82vh] object-contain rounded-xl border border-slate-700 shadow-2xl">
+      <button type="button" onclick="closePhotoLightbox()" class="mt-2 px-3 py-1 rounded-full bg-slate-800 text-white text-xs border border-slate-600">✕ 閉じる</button>
+    </div>
+  </div>
+
+  <!-- Backup, Restore (.json) & GitHub index.html Export Modal -->
+  <div id="backupModal" class="hidden fixed inset-0 z-50 bg-black/85 backdrop-blur-md flex items-center justify-center p-4 overflow-y-auto">
+    <div class="bg-slate-900 border border-emerald-500/40 rounded-2xl max-w-xl w-full p-4 sm:p-5 shadow-2xl my-6 max-h-[92vh] overflow-y-auto">
+      <div class="flex items-center justify-between pb-2.5 mb-3 border-b border-slate-800">
+        <h3 class="font-serif font-bold text-sm sm:text-base text-white">💾 バックアップ保存・復元（.json）・GitHub公開用出力</h3>
+        <button type="button" onclick="closeBackupModal()" class="text-slate-400 hover:text-white text-lg leading-none px-1">×</button>
+      </div>
+
+      <div class="space-y-3.5">
+        <div id="diffStatusMsg" class="text-xs text-amber-300 font-bold bg-amber-950/40 border border-amber-600/30 rounded-lg px-3 py-2"></div>
+
+        <!-- ① ファイル（*.json）での保存・復元 -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+          <div class="p-3 rounded-xl bg-slate-950 border border-slate-800 space-y-2">
+            <div class="text-xs font-bold text-sky-400">① ファイル（*.json）から復元</div>
+            <p class="text-[10px] text-slate-400 leading-relaxed">保存したバックアップファイル（.json）を選んで記事を復元します。</p>
+            <label class="block w-full text-center py-2 rounded-lg bg-sky-600 hover:bg-sky-500 text-white font-bold text-xs shadow cursor-pointer transition">
+              📂 ファイル(*.json)を選んで復元
+              <input type="file" id="restoreJsonFileInput" accept=".json,application/json" class="hidden" onchange="restoreCustomDiffFromFile(event)">
+            </label>
+          </div>
+
+          <div class="p-3 rounded-xl bg-slate-950 border border-slate-800 space-y-2">
+            <div class="text-xs font-bold text-emerald-400">② 追加分をファイル（*.json）保存</div>
+            <p class="text-[10px] text-slate-400 leading-relaxed">ご自身で追加・編集した記事データをパソコンにダウンロード保存します。</p>
+            <button type="button" onclick="downloadCustomDiffJson()" class="w-full py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs shadow transition">
+              📥 バックアップ(*.json)を保存
+            </button>
+          </div>
+        </div>
+
+        <!-- ③ GitHub Pages 公開用（index.html 直接ダウンロード ＆ コードコピー） -->
+        <div class="p-3.5 rounded-xl bg-emerald-950/30 border border-emerald-500/40 space-y-2.5">
+          <div class="flex items-center gap-1.5 text-xs font-bold text-emerald-300">
+            <span>🚀</span>
+            <span>GitHub Pages 更新用（最新データを焼き込んだ index.html）</span>
+          </div>
+          <p class="text-[11px] text-slate-300 leading-relaxed">
+            記事の追加や復元が終わったら、下のボタンで最新の <strong><code>index.html</code></strong> をダウンロードし、GitHubリポジトリに上書きアップロードすると、公開URLのサイトに完全反映されます。
+          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+            <button type="button" onclick="downloadProductionIndexHtml()" class="w-full py-2.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs shadow-lg transition flex items-center justify-center gap-1">
+              <span>📥 完成版 index.html を保存</span>
+            </button>
+            <button type="button" onclick="generateAndSelectProductionHtml()" class="w-full py-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-amber-300 font-bold text-xs border border-amber-500/40 transition flex items-center justify-center gap-1">
+              <span>📋 HTMLコードを表示・コピー</span>
+            </button>
+          </div>
+
+          <div id="productionCodeBoxWrap" class="hidden space-y-1.5 pt-1">
+            <div id="fullCopyStatusMsg" class="text-[11px] text-emerald-300 font-bold">
+              ✓ 下の枠にコードを生成し全選択しました！そのまま「Ctrl + C」でコピーできます。
+            </div>
+            <textarea id="productionHtmlOutput" readonly rows="4" onclick="this.select()" class="w-full p-2 rounded-lg bg-slate-950 border border-emerald-500/60 font-mono text-[10px] text-emerald-200 focus:outline-none"></textarea>
+          </div>
+        </div>
+
+        <div class="flex items-center justify-between pt-2 border-t border-slate-800 text-xs">
+          <button type="button" onclick="resetToDefaultEvents()" class="text-slate-500 hover:text-rose-400 text-[11px]">すべて初期状態にリセット</button>
+          <button type="button" onclick="closeBackupModal()" class="px-4 py-1.5 rounded-lg bg-slate-800 text-slate-300 text-xs">閉じる</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script id="mainAppScript">
+    /*__EMBEDDED_CUSTOM_DIFF_START__*/
+    const EMBEDDED_CUSTOM_DIFF = {"upserts":[],"deletedIds":[]};
+    /*__EMBEDDED_CUSTOM_DIFF_END__*/
+
+    const CHAPTERS = [
+      { id: 'ch1', name: '第1章 誕生～神戸コック時代 1956～1976年' },
+      { id: 'ch2', name: '第2章 放浪～北海道YHヘルパー時代 1977～1983年' },
+      { id: 'ch3', name: '第3章 神奈川移住～トラックドライバー時代 1984年～2014年' },
+      { id: 'ch4', name: '第4章 息子の独立～妻との二人暮らし 2014年～2023年' },
+      { id: 'ch5', name: '第5章 妻のグループホーム入所・一人暮らし時代 2024年～' }
+    ];
+
+    function inferChapterFromYear(year, title = '') {
+      const y = Number(year) || 1980;
+      if (y <= 1976) return 'ch1';
+      if (y <= 1983) return 'ch2';
+      if (y < 2014) return 'ch3';
+      if (y === 2014) {
+        if (title.includes('結婚') || title.includes('独立') || title.includes('佑也')) return 'ch4';
+        return 'ch3';
+      }
+      if (y <= 2023) return 'ch4';
+      return 'ch5';
+    }
+
+    function autoSelectChapterByYear(yearVal) {
+      const y = parseInt(yearVal, 10);
+      if (!y) return;
+      const chSelect = document.getElementById('formChapter');
+      if (chSelect) {
+        chSelect.value = inferChapterFromYear(y, document.getElementById('formTitle')?.value || '');
+      }
+    }
+
+    const DEFAULT_EVENTS = [
+      {
+        id: 'ev-1956', year: 1956, dateStr: '12月17日', chapter: 'ch1',
+        title: '和歌山市紀三井寺にて生誕',
+        quote: '自分自身に忠実に生きてゆきたい',
+        body: '春になれば桜が咲き乱れ、夜店と宴会で賑わう美しい紀三井寺が心の原風景。近所の子供たちと裏山を駆け回り、近くの工場に忍び込んで遊んだ無邪気な少年時代。',
+        images: [], videos: []
+      },
+      {
+        id: 'ev-1968', year: 1968, dateStr: '小6〜中学時代', chapter: 'ch1',
+        title: '大阪への転校と、親友・山田との破天荒な夜間登山',
+        quote: '暗闇の中で「俺はここにいるぞ」と確かめるための自己主張だった',
+        body: '小学校6年で大阪へ転校。我孫子中学校へ進学し、新聞配達のバイトを経験。親友の山田栄治と出会い、大した装備もなく強行した夜間登山で、たき火にあたりながら一晩中大声で歌い明かした。授業中には教科書の裏に隠してダンテの『神曲』や世界一周の旅の本を読み漁り、広い世界への憧れを強く抱いた。',
+        images: [], videos: []
+      },
+      {
+        id: 'ev-1972', year: 1972, dateStr: '16歳', chapter: 'ch1',
+        title: '日本調理師学校を経て、神戸・ニューポートホテル入社',
+        quote: '学歴がないので中身で勝負だ',
+        body: '中学卒業後、高校へは行かず日本調理師学校へ。16歳で雅叙園観光（株）神戸営業所・ニューポートホテルに入社（初任給37,000円）。料理の基礎を叩き込まれ、自らの腕で稼ぎ生き抜く現場の原点となった。',
+        images: [], videos: []
+      },
+      {
+        id: 'ev-1974', year: 1974, dateStr: '7月〜9月', chapter: 'ch1',
+        title: '四国・九州自転車旅行と『旅の終わり』での落涙',
+        quote: '人は一生のうち、一冊は本が書ける。それは自分自身の伝記である',
+        body: '7月に四国自転車旅行で初めてユースホステル（日和佐ユース）を利用。9月にホテルを辞め、船で九州へ渡り自転車旅を敢行。えびの高原ユースホステルで7連泊し、旅立つ時に仲間が歌ってくれた『旅の終わり』を口ずさんだ瞬間、涙がとめどなく溢れた。',
+        images: [], videos: []
+      },
+      {
+        id: 'ev-1976', year: 1976, dateStr: '20歳', chapter: 'ch1',
+        title: '北の大地へ・屈斜路湖ユースでのギター武者修行',
+        quote: '言いたい事を歌にするのは非常におもしろい',
+        body: 'レストラン・レマンや炉端焼、レストラン「ジャパン」で働き資金30万円を貯め、沖縄・九州・東北・北海道へ放浪の旅へ。北海道の屈斜路湖ユースホステルでヘルパーとなり、18歳で手に入れたギターを毎日5〜6時間猛練習。最初に弾けるようになった曲は『小さな日記』。ここから音楽と旅の長い歴史が始まった。',
+        images: [], videos: []
+      },
+      {
+        id: 'ev-1982', year: 1982, dateStr: '冬（昭和57〜58年）', chapter: 'ch2',
+        title: '網走の極寒現場と、凍える部屋での猛烈な独学',
+        quote: '高校や大学を出た連中に、何年か先には追い越してやろう',
+        body: '原生花園ユースのヘルパーや鉄筋工などの過酷な労働に従事しながら、歴史・文学・哲学・数学・英語・二級建築士の独学に挑む。アルビン・トフラーの『第三の波』やヘッセ、遠藤周作を熟読し、「晴耕雨読」のDIY精神と岩内でのログキャビン民宿構想をノートに綴った。',
+        images: [], videos: []
+      },
+      {
+        id: 'ev-1984', year: 1984, dateStr: '昭和59年9月', chapter: 'ch3',
+        title: '厚木へ進出・流取ラインでの機械改善とジャズギター',
+        quote: '孤独は人を大きくする',
+        body: '北海道から神奈川・厚木の寮（戸室寮〜妻田寮）へ移る。1日12時間労働をこなしながら、流取ラインのサブ・リーダーとして機械改善提案を自ら実践。夜はウェス・モンゴメリーやリー・リトナーを聴きながらジャズギターを弾き倒し、読書感想をノートに記録し続けた。',
+        images: [], videos: []
+      },
+      {
+        id: 'ev-1986', year: 1986, dateStr: '昭和61年8月', chapter: 'ch3',
+        title: '鴻池運輸へ入社、信子との運命の合流（結婚）',
+        quote: '二人のタイムラインが交差した運命の瞬間',
+        body: '30歳、鴻池運輸（株）横浜支店にて物流のプロとしてのキャリアを開始。同時に、16歳から浜岳製作所やミツミ電機など日本のものづくり現場で真摯に働いてきた信子（当時23歳）と結婚。家族の物語の共同編集がスタートした。',
+        images: [], videos: []
+      },
+      {
+        id: 'ev-1989', year: 1989, dateStr: '平成元年11月', chapter: 'ch3',
+        title: '長男・佑也の誕生と『夢新聞』創刊、FM-Towns導入',
+        quote: '父親になりました。この子のために21世紀の地球を守らなければならない',
+        body: '11月、長男・佑也が誕生。ふれあい音楽隊として発行したミニコミ紙『夢新聞』第1号で父親としての決意を高らかに宣言。同時に最先端パソコンFM-Townsを導入し、デジタル自分史の記録を開始した。',
+        images: [], videos: []
+      },
+      {
+        id: 'ev-1995', year: 1995, dateStr: '平成7年〜', chapter: 'ch3',
+        title: 'ジェーラインエクスプレス入社・中型トラックの聖域',
+        quote: 'このコックピットこそが自らのプライドの砦であり、誰にも侵されない学びの聖域だった',
+        body: '株式会社ジェーラインエクスプレスへ入社し、以降26年間にわたる激闘のハンドルを握る。長男小学1年時の別居による10年の単身生活のなか、キャビンにカセットテープを持ち込み『車内通勤外国語教室』を開講。深夜のハイウェイを走りながら英語を学び続けた。',
+        images: [], videos: []
+      },
+      {
+        id: 'ev-2007', year: 2007, dateStr: '平成19年〜20年', chapter: 'ch3',
+        title: '映像編集PCの調達と、秦野・西大竹での家族合流',
+        quote: 'タイムラインをコントロールし、全体の構成を美しく仕上げる',
+        body: '2007年にハイビジョン編集用のパソコンを注文し、2007年12月には佑也の大学入学金・授業料（約82万円）をキャッシュで完遂。秦野市西大竹で家族と合流し、Edius Proやステディカムを駆使した本格的な映像制作に情熱を注いだ。',
+        images: [], videos: []
+      },
+      {
+        id: 'ev-2012', year: 2012, dateStr: '平成24年春', chapter: 'ch3',
+        title: '三世代の伏線回収：父の遺産による息子の学生ローン一括返済',
+        quote: '三世代にわたって見えない経済のバトンが完璧なタイミングで手渡された',
+        body: '佑也の大学卒業時、父の遺産が入り、息子の学生ローン残債とほぼ同額だったため全額を一括返済。さらに同年、母（お袋）との10年ぶりの再会を果たし、和歌山・潮岬の露天風呂から美しい朝日を臨んだ。',
+        images: [], videos: []
+      },
+      {
+        id: 'ev-2013', year: 2013, dateStr: '平成25年12月', chapter: 'ch3',
+        title: '純資産約600万円の「黒字超大国」を達成',
+        quote: '家計を管理するDNAと戦い抜く血統の結実',
+        body: '長年にわたる教育費の支払いと映像機材への投資を潜り抜け、2013年末には資産6,182,660円・負債196,565円、純資産5,986,095円という堅牢な財務基盤を築き上げた。',
+        images: [], videos: []
+      },
+      {
+        id: 'ev-2014', year: 2014, dateStr: '平成26年7月27日', chapter: 'ch4',
+        title: '佑也とさっちゃんの結婚・写真入り家系図と記念ムービー',
+        quote: '新しい家族の誕生を心から祝福した',
+        body: '両家顔合わせの席で、自作の写真入り家系図やYouTubeの幼少期ムービー（1歳のころ・幼稚園など）を披露。和やかなLINEのやり取りとともに、新しい家族の門出を祝った。',
+        images: [],
+        videos: [
+          'https://www.youtube.com/watch?v=LfYudYPOk0E',
+          'https://www.youtube.com/watch?v=eNyb3CYYVnM'
+        ]
+      },
+      {
+        id: 'ev-2021', year: 2021, dateStr: '令和3年5月17日', chapter: 'ch4',
+        title: '信子の在宅介護の決意と、26年勤務した物流からの引退',
+        quote: 'どんな過酷な現実も、自らの意志で背負い直す',
+        body: '信子の症状悪化に伴い「西大竹のアパートでフルタイムで働きながら介護する」と決意。行政や地域包括支援センター、ケアマネジャーと連携して生活基盤を整え、26年間勤めたジェーラインエクスプレスを退職（生涯年金保険料納付額1,141万円超を達成）。',
+        images: [], videos: []
+      },
+      {
+        id: 'ev-2026', year: 2026, dateStr: '令和8年（現在）', chapter: 'ch5',
+        title: '冷蔵倉庫ダブルワークでの大逆転（前年比+57万円）と静かな見守り',
+        quote: '安全な距離で結界を守り続ける、最高の味方でありたい',
+        body: '2025年11月のFX撤退と通信費スリム化を経て、プラス・パーフとイワタニフーズの冷蔵倉庫ダブルワークで前年比プラス57万円のバランスシート改善を達成。息子夫婦の深い悲しみに対しては、境界線を尊重し遠くから温かく見守る父親の愛を貫く。',
+        images: [], videos: []
+      },
+      {
+        id: 'ev-2035', year: 2035, dateStr: '2035〜2045年 未来計画', chapter: 'ch5',
+        title: '純資産415万円到達・80歳現役と2045年までの無敵の要塞',
+        quote: '人生のラストシーンまで資金ショートを絶対に起こさない、無駄なカットが一切ない映画',
+        body: '夫婦の年金インフラ（障害基礎年金＋老齢厚生年金の併用スキーム）と緻密なExcelキャッシュフロー表により、2035年には純資産415万円へ回復。2036年（80歳）の永代供養費用30万円を織り込みつつ、2045年（89歳）まで黒字を維持するライフプランを完結させる。',
+        images: [], videos: []
+      }
+    ];
+
+    const DIFF_STORAGE_KEY = 'nobu_chronicle_custom_diff_v1';
+    let customDiff = { upserts: [], deletedIds: [] };
+    let events = [];
+    let currentChapter = 'all';
+    let expandedIds = new Set();
+    let pendingDeleteId = null;
+
+    function normalizeEventItem(ev) {
+      let images = Array.isArray(ev.images) ? ev.images.filter(Boolean) : [];
+      if (images.length === 0 && ev.imageUrl && ev.imageUrl.trim()) images = [ev.imageUrl.trim()];
+      let videos = Array.isArray(ev.videos) ? ev.videos.filter(Boolean) : [];
+      if (videos.length === 0 && ev.videoUrl && ev.videoUrl.trim()) videos = [ev.videoUrl.trim()];
+      const yearNum = Number(ev.year) || 1980;
+      const titleStr = ev.title || '';
+
+      let ch = ev.chapter;
+      if (!ch || ch === 'ch6' || !ev.chapterManuallySet) {
+        ch = inferChapterFromYear(yearNum, titleStr);
+      }
+
+      return {
+        id: ev.id || ('ev-' + Date.now() + Math.random()),
+        year: yearNum,
+        dateStr: ev.dateStr || '',
+        chapter: ch,
+        chapterManuallySet: Boolean(ev.chapterManuallySet),
+        title: titleStr,
+        quote: ev.quote || '',
+        body: ev.body || '',
+        images: images.slice(0, 4),
+        videos: videos.slice(0, 2),
+        isCustom: Boolean(ev.isCustom)
+      };
+    }
+
+    function isSameAsDefault(ev) {
+      const def = DEFAULT_EVENTS.find(d => d.id === ev.id);
+      if (!def) return false;
+      return (
+        Number(def.year) === Number(ev.year) &&
+        (def.dateStr || '') === (ev.dateStr || '') &&
+        (def.title || '') === (ev.title || '') &&
+        (def.quote || '') === (ev.quote || '') &&
+        (def.body || '') === (ev.body || '') &&
+        JSON.stringify(def.images || []) === JSON.stringify(ev.images || []) &&
+        JSON.stringify(def.videos || []) === JSON.stringify(ev.videos || [])
+      );
+    }
+
+    function rebuildEventsFromDiff() {
+      const deletedSet = new Set(customDiff.deletedIds || []);
+      const upsertMap = new Map();
+      (customDiff.upserts || []).forEach(item => {
+        const norm = normalizeEventItem(item);
+        norm.isCustom = true;
+        upsertMap.set(norm.id, norm);
+      });
+
+      const merged = [];
+      DEFAULT_EVENTS.forEach(def => {
+        if (deletedSet.has(def.id)) return;
+        if (upsertMap.has(def.id)) {
+          merged.push(upsertMap.get(def.id));
+          upsertMap.delete(def.id);
+        } else {
+          merged.push(normalizeEventItem(def));
+        }
+      });
+
+      for (const [, customEv] of upsertMap.entries()) {
+        if (!deletedSet.has(customEv.id)) {
+          merged.push(customEv);
+        }
+      }
+
+      events = merged;
+      updateCustomCountBadge();
+    }
+
+    function updateCustomCountBadge() {
+      const badge = document.getElementById('customCountBadge');
+      if (!badge) return;
+      const count = (customDiff.upserts || []).length;
+      badge.textContent = `追加・編集: ${count}件`;
+    }
+
+    function loadAllData() {
+      const mergedMap = new Map();
+      const delSet = new Set();
+
+      if (typeof EMBEDDED_CUSTOM_DIFF === 'object' && EMBEDDED_CUSTOM_DIFF !== null) {
+        (EMBEDDED_CUSTOM_DIFF.upserts || []).forEach(u => {
+          const norm = normalizeEventItem(u);
+          norm.isCustom = true;
+          mergedMap.set(norm.id, norm);
+        });
+        (EMBEDDED_CUSTOM_DIFF.deletedIds || []).forEach(id => delSet.add(id));
+      }
+
+      try {
+        const savedDiff = localStorage.getItem(DIFF_STORAGE_KEY);
+        if (savedDiff) {
+          const parsed = JSON.parse(savedDiff);
+          if (parsed && Array.isArray(parsed.upserts)) {
+            parsed.upserts.forEach(u => {
+              const norm = normalizeEventItem(u);
+              norm.isCustom = true;
+              mergedMap.set(norm.id, norm);
+            });
+            (parsed.deletedIds || []).forEach(id => delSet.add(id));
+          }
+        }
+      } catch (e) {}
+
+      customDiff = {
+        upserts: Array.from(mergedMap.values()),
+        deletedIds: Array.from(delSet)
+      };
+      rebuildEventsFromDiff();
+    }
+
+    function saveCustomDiff() {
+      try {
+        localStorage.setItem(DIFF_STORAGE_KEY, JSON.stringify(customDiff));
+        return true;
+      } catch (e) {
+        return false;
+      }
+    }
+
+    function initPhotoSlotsUI() {
+      const container = document.getElementById('photoSlotsContainer');
+      container.innerHTML = [0, 1, 2, 3].map(i => `
+        <div class="p-2 rounded-lg bg-slate-900 border border-slate-800">
+          <div class="flex items-center justify-between mb-1">
+            <span class="text-[11px] font-bold text-slate-300">写真${['①','②','③','④'][i]}</span>
+            <div class="flex gap-1">
+              <label class="cursor-pointer px-1.5 py-0.5 rounded bg-slate-800 hover:bg-slate-700 text-[10px] text-amber-300 border border-slate-700">
+                ファイル選択
+                <input type="file" accept="image/*" class="hidden" onchange="handleSlotImageUpload(event, ${i})">
+              </label>
+              <button type="button" onclick="clearSlotImage(${i})" class="px-1.5 py-0.5 rounded bg-slate-800 hover:bg-rose-900/65 text-[10px] text-slate-400">消去</button>
+            </div>
+          </div>
+          <input id="formImageUrl${i}" type="text" placeholder="画像URLを貼り付け（note等）" oninput="updateSlotPreview(${i}, this.value)" class="w-full px-2 py-0.5 rounded bg-slate-950 border border-slate-800 text-white text-[11px] focus:border-amber-500 focus:outline-none">
+          <div id="slotPreviewBox${i}" class="hidden mt-1 flex items-center gap-1.5">
+            <img id="slotPreviewImg${i}" src="" alt="" class="h-8 w-12 object-cover rounded border border-slate-700">
+            <span class="text-[10px] text-emerald-400">✓ セット済</span>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function resolveImageUrl(url) {
+      if (!url) return '';
+      const trimmed = url.trim();
+      const driveMatch = trimmed.match(/drive\.google\.com\/file\/d\/([^\/]+)\//);
+      if (driveMatch && driveMatch[1]) {
+        return `https://drive.google.com/thumbnail?id=${driveMatch[1]}&sz=w1000`;
+      }
+      return trimmed;
+    }
+
+    function extractYoutubeId(url) {
+      if (!url) return null;
+      const match = url.trim().match(/(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?|shorts)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/\s]{11})/i);
+      return match ? match[1] : null;
+    }
+
+    function getChapterShortLabel(chapterId) {
+      const idx = CHAPTERS.findIndex(c => c.id === chapterId);
+      return idx !== -1 ? `第${idx + 1}章` : '第1章';
+    }
+
+    function renderChapterTabs() {
+      document.getElementById('chapterTabs').innerHTML = CHAPTERS.map(ch => {
+        const active = currentChapter === ch.id;
+        return `<button type="button" onclick="setChapter('${ch.id}')" class="px-2.5 py-1.5 rounded-lg text-xs font-medium transition ${
+          active ? 'bg-amber-500 text-slate-950 font-bold shadow' : 'bg-slate-800/85 hover:bg-slate-700 text-slate-200 border border-slate-700/80'
+        }">${ch.name}${active ? ' ✕' : ''}</button>`;
+      }).join('');
+    }
+
+    function setChapter(chId) {
+      currentChapter = (currentChapter === chId) ? 'all' : chId;
+      renderApp();
+    }
+
+    function toggleSearchPanel() {
+      const p = document.getElementById('searchPanel');
+      p.classList.toggle('hidden');
+      if (!p.classList.contains('hidden')) document.getElementById('searchInput').focus();
+    }
+    function clearSearch() { document.getElementById('searchInput').value = ''; renderApp(); }
+    function toggleExpand(id) { expandedIds.has(id) ? expandedIds.delete(id) : expandedIds.add(id); renderApp(); }
+
+    function scrollToYear(y) {
+      const target = document.getElementById(`year-group-${y}`);
+      if (!target) return;
+      const headerOffset = 80;
+      const elementPosition = target.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+      window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
+    }
+
+    function openPhotoLightbox(src) {
+      if (!src) return;
+      document.getElementById('lightboxImg').src = resolveImageUrl(src);
+      document.getElementById('photoLightboxModal').classList.remove('hidden');
+    }
+    function closePhotoLightbox() { document.getElementById('photoLightboxModal').classList.add('hidden'); }
+
+    function renderPhotosGrid(images) {
+      const valid = (images || []).filter(u => u && u.trim());
+      if (valid.length === 0) return '';
+      return `<div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5 pt-1">
+        ${valid.map((rawUrl, idx) => {
+          const src = resolveImageUrl(rawUrl);
+          return `<div onclick="openPhotoLightbox('${escapeHtml(src)}')" class="group relative rounded-lg overflow-hidden border border-slate-800 bg-slate-950 cursor-pointer aspect-[4/3]">
+            <img src="${escapeHtml(src)}" alt="写真${idx + 1}" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+            <span class="absolute bottom-1 right-1 px-1.5 py-0.5 rounded bg-black/70 text-[9px] text-slate-200 font-mono">写真${idx + 1}</span>
+          </div>`;
+        }).join('')}
+      </div>`;
+    }
+
+    function renderVideosGrid(videos) {
+      const valid = (videos || []).map(v => v ? v.trim() : '').filter(Boolean);
+      if (valid.length === 0) return '';
+      const gridClass = valid.length >= 2 ? 'grid-cols-1 sm:grid-cols-2' : 'grid-cols-1 max-w-lg';
+      return `<div class="grid ${gridClass} gap-3 pt-1">
+        ${valid.map(vUrl => {
+          const ytId = extractYoutubeId(vUrl);
+          return ytId
+            ? `<div class="aspect-video rounded-lg overflow-hidden border border-slate-800 bg-black shadow">
+                <iframe src="https://www.youtube.com/embed/${ytId}" class="w-full h-full" frameborder="0" allowfullscreen></iframe>
+              </div>`
+            : `<div class="aspect-video rounded-lg overflow-hidden border border-slate-800 bg-black flex items-center justify-center">
+                <video src="${escapeHtml(vUrl)}" controls class="w-full h-full object-contain"></video>
+              </div>`;
+        }).join('')}
+      </div>`;
+    }
+
+    function renderApp() {
+      renderChapterTabs();
+      const query = (document.getElementById('searchInput')?.value || '').trim().toLowerCase();
+      const filtered = events
+        .filter(ev => currentChapter === 'all' || ev.chapter === currentChapter)
+        .filter(ev => !query || String(ev.year).includes(query) || (ev.title||'').toLowerCase().includes(query) || (ev.body||'').toLowerCase().includes(query) || (ev.quote||'').toLowerCase().includes(query))
+        .sort((a, b) => Number(a.year) - Number(b.year));
+
+      document.getElementById('totalCountBadge').textContent = `全${filtered.length}件`;
+
+      const groups = new Map();
+      filtered.forEach(ev => {
+        const y = Number(ev.year);
+        if (!groups.has(y)) groups.set(y, []);
+        groups.get(y).push(ev);
+      });
+
+      document.getElementById('yearIndexBar').innerHTML = Array.from(groups.keys()).map(y =>
+        `<button type="button" onclick="scrollToYear(${y})" class="px-2 py-0.5 rounded bg-slate-800 hover:bg-amber-500 hover:text-slate-950 text-slate-300 font-mono text-xs border border-slate-700 transition">${y}年</button>`
+      ).join('');
+
+      const container = document.getElementById('timelineContainer');
+      if (filtered.length === 0) {
+        container.innerHTML = `<div class="text-center py-12 bg-slate-900/40 rounded-xl border border-slate-800 text-slate-400 text-xs">該当する記事がありません</div>`;
+        return;
+      }
+
+      container.innerHTML = Array.from(groups.entries()).map(([year, yearEvents]) => {
+        const age = year - 1956;
+        return `<div id="year-group-${year}" class="relative grid grid-cols-1 md:grid-cols-[100px_1fr] gap-2 md:gap-5 items-start">
+          <div class="flex md:flex-col items-baseline md:items-end justify-between md:sticky md:top-20 bg-slate-900/80 md:bg-transparent px-3 py-1.5 md:p-0 rounded-lg border border-slate-800 md:border-none">
+            <div class="flex items-baseline gap-1.5 md:flex-col md:items-end md:gap-0">
+              <span class="font-mono font-bold text-lg sm:text-2xl text-amber-400">${year}</span>
+              <span class="text-xs font-mono text-slate-400">${age >= 0 ? age + '歳' : ''}</span>
+            </div>
+            <span class="text-[10px] font-mono text-slate-500">${yearEvents.length}件</span>
+          </div>
+          <div class="relative pl-3 md:pl-5 border-l-2 border-amber-500/30 space-y-2.5">
+            ${yearEvents.map(ev => renderEventCard(ev)).join('')}
+          </div>
+        </div>`;
+      }).join('');
+    }
+
+    function renderEventCard(ev) {
+      const isExpanded = expandedIds.has(ev.id);
+      const validImages = (ev.images || []).filter(u => u && u.trim());
+      const validVideos = (ev.videos || []).filter(u => u && u.trim());
+
+      return `<article class="card-glow rounded-xl bg-slate-900/85 border border-slate-800 overflow-hidden">
+        <div class="px-4 py-3 sm:px-5 sm:py-3.5 flex items-center justify-between gap-2 cursor-pointer select-none hover:bg-slate-800/40 transition" onclick="toggleExpand('${ev.id}')">
+          <div class="flex flex-wrap items-center gap-x-2.5 gap-y-1 flex-1 min-w-0">
+            ${ev.dateStr ? `<span class="px-2 py-0.5 rounded bg-amber-500/15 text-amber-300 border border-amber-500/30 font-mono text-[11px] shrink-0">${escapeHtml(ev.dateStr)}</span>` : ''}
+            <h3 class="font-serif font-bold text-sm sm:text-base text-white leading-snug break-words">${escapeHtml(ev.title)}</h3>
+            <div class="flex items-center gap-1.5 shrink-0">
+              <span class="text-[11px] text-slate-500">${getChapterShortLabel(ev.chapter)}</span>
+              ${ev.isCustom ? `<span class="px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 text-[10px]">★追加・編集済</span>` : ''}
+              ${validImages.length > 0 ? `<span class="px-1.5 py-0.5 rounded bg-sky-500/15 text-sky-300 text-[10px]">📷 ${validImages.length}</span>` : ''}
+              ${validVideos.length > 0 ? `<span class="px-1.5 py-0.5 rounded bg-rose-500/15 text-rose-300 text-[10px]">🎬 ${validVideos.length}</span>` : ''}
+            </div>
+          </div>
+          <span class="text-slate-400 text-xs shrink-0 pl-2">${isExpanded ? '▲ 閉じる' : '▼ 読む'}</span>
+        </div>
+
+        ${isExpanded ? `<div class="px-4 sm:px-5 pb-4 pt-3 border-t border-slate-800/80 space-y-3.5 bg-slate-950/40">
+          ${ev.quote ? `<blockquote class="pl-3 border-l-2 border-amber-500 text-amber-300 font-serif italic text-xs sm:text-sm">「${escapeHtml(ev.quote)}」</blockquote>` : ''}
+          <p class="text-xs sm:text-sm text-slate-200 leading-relaxed whitespace-pre-line">${escapeHtml(ev.body)}</p>
+          ${renderPhotosGrid(validImages)}
+          ${renderVideosGrid(validVideos)}
+
+          <div class="flex items-center justify-end gap-2 pt-2.5 mt-2 border-t border-slate-800/70">
+            <button type="button" onclick="openEditorModal('${ev.id}')" class="px-3 py-1 rounded-lg bg-slate-800 hover:bg-amber-500 hover:text-slate-950 text-slate-200 text-xs font-medium border border-slate-700 transition flex items-center gap-1">
+              <span>✏️ 編集</span>
+            </button>
+            <button type="button" onclick="confirmDeleteEvent('${ev.id}')" class="px-3 py-1 rounded-lg bg-slate-800 hover:bg-rose-600 text-slate-300 hover:text-white text-xs border border-slate-700 transition flex items-center gap-1">
+              <span>🗑️ 削除</span>
+            </button>
+          </div>
+        </div>` : ''}
+      </article>`;
+    }
+
+    function openEditorModal(editId = null) {
+      const modal = document.getElementById('editorModal');
+      const errBox = document.getElementById('saveErrorBox');
+      if (errBox) errBox.classList.add('hidden');
+
+      if (editId) {
+        const ev = events.find(e => e.id === editId);
+        if (!ev) return;
+        document.getElementById('editorModalTitle').textContent = `エピソードの編集（${ev.year}年）`;
+        document.getElementById('editEventId').value = ev.id;
+        document.getElementById('formYear').value = ev.year;
+        document.getElementById('formDateStr').value = ev.dateStr || '';
+        document.getElementById('formChapter').value = ev.chapter || inferChapterFromYear(ev.year, ev.title);
+        document.getElementById('formTitle').value = ev.title || '';
+        document.getElementById('formQuote').value = ev.quote || '';
+        document.getElementById('formBody').value = ev.body || '';
+        for (let i = 0; i < 4; i++) {
+          const val = (ev.images && ev.images[i]) ? ev.images[i] : '';
+          document.getElementById(`formImageUrl${i}`).value = val;
+          updateSlotPreview(i, val);
+        }
+        document.getElementById('formVideoUrl0').value = (ev.videos && ev.videos[0]) ? ev.videos[0] : '';
+        document.getElementById('formVideoUrl1').value = (ev.videos && ev.videos[1]) ? ev.videos[1] : '';
+      } else {
+        document.getElementById('editorModalTitle').textContent = 'エピソードの追記（自動年代ソート）';
+        document.getElementById('editEventId').value = '';
+        document.getElementById('formYear').value = 1984;
+        document.getElementById('formDateStr').value = '';
+        document.getElementById('formChapter').value = 'ch3';
+        document.getElementById('formTitle').value = '';
+        document.getElementById('formQuote').value = '';
+        document.getElementById('formBody').value = '';
+        for (let i = 0; i < 4; i++) {
+          document.getElementById(`formImageUrl${i}`).value = '';
+          updateSlotPreview(i, '');
+        }
+        document.getElementById('formVideoUrl0').value = '';
+        document.getElementById('formVideoUrl1').value = '';
+      }
+      modal.classList.remove('hidden');
+    }
+
+    function closeEditorModal() { document.getElementById('editorModal').classList.add('hidden'); }
+
+    function handleSlotImageUpload(event, slotIndex) {
+      const file = event.target.files?.[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        const img = new Image();
+        img.onload = function() {
+          const canvas = document.createElement('canvas');
+          const maxDim = 300;
+          let w = img.width, h = img.height;
+          if (w > maxDim || h > maxDim) {
+            if (w > h) { h = Math.round((h * maxDim) / w); w = maxDim; }
+            else { w = Math.round((w * maxDim) / h); h = maxDim; }
+          }
+          canvas.width = w; canvas.height = h;
+          canvas.getContext('2d').drawImage(img, 0, 0, w, h);
+          const dataUrl = canvas.toDataURL('image/jpeg', 0.5);
+          document.getElementById(`formImageUrl${slotIndex}`).value = dataUrl;
+          updateSlotPreview(slotIndex, dataUrl);
+        };
+        img.src = e.target.result;
+      };
+      reader.readAsDataURL(file);
+    }
+
+    function clearSlotImage(i) {
+      document.getElementById(`formImageUrl${i}`).value = '';
+      updateSlotPreview(i, '');
+    }
+
+    function updateSlotPreview(i, url) {
+      const box = document.getElementById(`slotPreviewBox${i}`);
+      const img = document.getElementById(`slotPreviewImg${i}`);
+      if (url && url.trim()) {
+        img.src = resolveImageUrl(url);
+        box.classList.remove('hidden');
+      } else {
+        img.src = '';
+        box.classList.add('hidden');
+      }
+    }
+
+    function saveEventFromModal() {
+      const errBox = document.getElementById('saveErrorBox');
+      if (errBox) errBox.classList.add('hidden');
+
+      const editId = document.getElementById('editEventId').value;
+      const year = parseInt(document.getElementById('formYear').value, 10);
+      const dateStr = document.getElementById('formDateStr').value.trim();
+      const chapter = document.getElementById('formChapter').value;
+      const title = document.getElementById('formTitle').value.trim();
+      const quote = document.getElementById('formQuote').value.trim();
+      const body = document.getElementById('formBody').value.trim();
+
+      if (!year || !title) {
+        if (errBox) {
+          errBox.textContent = '⚠️ 「年（西暦）」と「出来事のタイトル」は必須項目です。';
+          errBox.classList.remove('hidden');
+        }
+        return;
+      }
+
+      const images = [];
+      for (let i = 0; i < 4; i++) {
+        const val = document.getElementById(`formImageUrl${i}`).value.trim();
+        if (val) images.push(val);
+      }
+      const videos = [];
+      const v0 = document.getElementById('formVideoUrl0').value.trim();
+      const v1 = document.getElementById('formVideoUrl1').value.trim();
+      if (v0) videos.push(v0);
+      if (v1) videos.push(v1);
+
+      const targetId = editId || ('ev-' + Date.now());
+      const newEventObj = {
+        id: targetId, year, dateStr, chapter, chapterManuallySet: true, title, quote, body, images, videos, isCustom: true
+      };
+
+      const existingIdx = customDiff.upserts.findIndex(u => u.id === targetId);
+      if (existingIdx !== -1) {
+        customDiff.upserts[existingIdx] = newEventObj;
+      } else {
+        customDiff.upserts.push(newEventObj);
+      }
+
+      saveCustomDiff();
+      rebuildEventsFromDiff();
+      expandedIds.add(targetId);
+      closeEditorModal();
+      renderApp();
+      setTimeout(() => scrollToYear(year), 100);
+    }
+
+    function confirmDeleteEvent(id) {
+      const ev = events.find(e => e.id === id);
+      if (!ev) return;
+      pendingDeleteId = id;
+      document.getElementById('deleteTargetTitle').textContent = `「${ev.year}年：${ev.title}」`;
+      document.getElementById('deleteConfirmModal').classList.remove('hidden');
+    }
+
+    function closeDeleteModal() {
+      pendingDeleteId = null;
+      document.getElementById('deleteConfirmModal').classList.add('hidden');
+    }
+
+    function executeDeleteEvent() {
+      if (!pendingDeleteId) return;
+      customDiff.upserts = (customDiff.upserts || []).filter(u => u.id !== pendingDeleteId);
+      if (DEFAULT_EVENTS.some(d => d.id === pendingDeleteId)) {
+        if (!customDiff.deletedIds.includes(pendingDeleteId)) {
+          customDiff.deletedIds.push(pendingDeleteId);
+        }
+      }
+      expandedIds.delete(pendingDeleteId);
+      saveCustomDiff();
+      rebuildEventsFromDiff();
+      closeDeleteModal();
+      renderApp();
+    }
+
+    function openBackupModal() {
+      document.getElementById('diffStatusMsg').textContent = `現在、追加・編集された記事が ${(customDiff.upserts || []).length} 件あります。`;
+      document.getElementById('productionCodeBoxWrap').classList.add('hidden');
+      const fileInput = document.getElementById('restoreJsonFileInput');
+      if (fileInput) fileInput.value = '';
+      document.getElementById('backupModal').classList.remove('hidden');
+    }
+
+    function closeBackupModal() {
+      document.getElementById('backupModal').classList.add('hidden');
+    }
+
+    function downloadCustomDiffJson() {
+      const dataStr = JSON.stringify(customDiff, null, 2);
+      const blob = new Blob([dataStr], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `nobu_custom_backup_${new Date().toISOString().slice(0,10)}.json`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+      document.getElementById('diffStatusMsg').textContent = '✓ バックアップファイル(.json)を保存しました！';
+    }
+
+    function applyImportedData(parsed) {
+      if (parsed && Array.isArray(parsed.upserts)) {
+        const map = new Map();
+        (customDiff.upserts || []).forEach(u => map.set(u.id, normalizeEventItem(u)));
+        parsed.upserts.forEach(u => {
+          const copy = { ...u, chapterManuallySet: false };
+          map.set(copy.id, normalizeEventItem(copy));
+        });
+        customDiff.upserts = Array.from(map.values());
+        customDiff.deletedIds = Array.from(new Set([...(customDiff.deletedIds || []), ...(parsed.deletedIds || [])]));
+      } else if (Array.isArray(parsed)) {
+        const map = new Map();
+        (customDiff.upserts || []).forEach(u => map.set(u.id, normalizeEventItem(u)));
+        parsed.forEach(item => {
+          const copy = { ...item, chapterManuallySet: false };
+          const norm = normalizeEventItem(copy);
+          if (!isSameAsDefault(norm)) {
+            norm.isCustom = true;
+            map.set(norm.id, norm);
+          }
+        });
+        customDiff.upserts = Array.from(map.values());
+      } else {
+        throw new Error('Invalid format');
+      }
+      saveCustomDiff();
+      rebuildEventsFromDiff();
+      renderApp();
+    }
+
+    function restoreCustomDiffFromFile(event) {
+      const file = event.target.files?.[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        try {
+          const parsed = JSON.parse(e.target.result);
+          applyImportedData(parsed);
+          document.getElementById('diffStatusMsg').textContent = `✓ ファイルから復元が完了しました！（追加・編集: ${customDiff.upserts.length}件）`;
+        } catch (err) {
+          document.getElementById('diffStatusMsg').textContent = '⚠️ ファイルの読み込みに失敗しました。';
+        }
+      };
+      reader.readAsText(file);
+    }
+
+    function buildCleanProductionHtmlString() {
+      const cloneDoc = document.documentElement.cloneNode(true);
+
+      const styles = cloneDoc.querySelectorAll('head style');
+      styles.forEach(st => {
+        if (st.id !== 'baseCustomStyle') st.remove();
+      });
+
+      ['#timelineContainer', '#chapterTabs', '#yearIndexBar', '#photoSlotsContainer'].forEach(sel => {
+        const el = cloneDoc.querySelector(sel);
+        if (el) el.innerHTML = '';
+      });
+      const outArea = cloneDoc.querySelector('#productionHtmlOutput');
+      if (outArea) outArea.value = '';
+      const wrap = cloneDoc.querySelector('#productionCodeBoxWrap');
+      if (wrap) wrap.classList.add('hidden');
+      const bm = cloneDoc.querySelector('#backupModal');
+      if (bm) bm.classList.add('hidden');
+
+      let rawHtml = cloneDoc.outerHTML;
+      const targetRegex = /\/\*__EMBEDDED_CUSTOM_DIFF_START__\*\/[\s\S]*?\/\*__EMBEDDED_CUSTOM_DIFF_END__\*\//;
+      const replacement = `/*__EMBEDDED_CUSTOM_DIFF_START__*/\n    const EMBEDDED_CUSTOM_DIFF = ${JSON.stringify(customDiff)};\n    /*__EMBEDDED_CUSTOM_DIFF_END__*/`;
+      return '<!DOCTYPE html>\n' + rawHtml.replace(targetRegex, replacement);
+    }
+
+    // GitHubリポジトリへそのままアップロードできる完成版 index.html を直接ダウンロード
+    function downloadProductionIndexHtml() {
+      const finalHtml = buildCleanProductionHtmlString();
+      const blob = new Blob([finalHtml], { type: 'text/html;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'index.html';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+      document.getElementById('diffStatusMsg').textContent = '✓ 完成版 index.html をダウンロードしました！GitHubにアップロードしてください。';
+    }
+
+    function generateAndSelectProductionHtml() {
+      const finalHtml = buildCleanProductionHtmlString();
+      const boxWrap = document.getElementById('productionCodeBoxWrap');
+      const outputBox = document.getElementById('productionHtmlOutput');
+      boxWrap.classList.remove('hidden');
+      outputBox.value = finalHtml;
+      outputBox.focus();
+      outputBox.select();
+      outputBox.setSelectionRange(0, 9999999);
+
+      try {
+        const ok = document.execCommand('copy');
+        if (ok) {
+          document.getElementById('fullCopyStatusMsg').textContent = '✓ クリップボードにコピーしました！（Ctrl+C でもコピーできます）';
+        }
+      } catch (e) {}
+    }
+
+    function resetToDefaultEvents() {
+      customDiff = { upserts: [], deletedIds: [] };
+      saveCustomDiff();
+      rebuildEventsFromDiff();
+      renderApp();
+      closeBackupModal();
+    }
+
+    function escapeHtml(str) {
+      if (!str) return '';
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+    }
+
+    initPhotoSlotsUI();
+    loadAllData();
+    renderApp();
+  </script>
+</body>
+</html>
